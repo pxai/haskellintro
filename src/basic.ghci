@@ -1,0 +1,23 @@
+GHCi, version 7.10.3: http://www.haskell.org/ghc/  :? for help
+Prelude>
+Prelude>
+Prelude> 1 + 1
+2
+Prelude> 2 * 21
+42
+Prelude> 3 - 5
+-2
+Prelude> 3.4 + 3
+6.4
+Prelude> 324 / 77
+4.207792207792208
+Prelude> 3 + (5 * 4)
+23
+Prelude> -4
+-4
+Prelude> -(-3)
+3
+Prelude> 3 ** 2
+9.0
+
+Prelude> q:
