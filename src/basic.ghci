@@ -21,3 +21,42 @@ Prelude> 3 ** 2
 9.0
 
 Prelude> q:
+GHCi, version 7.10.3: http://www.haskell.org/ghc/  :? for help
+Prelude> True
+True
+Prelude> False
+False
+Prelude> not True
+False
+Prelude> not True
+False
+Prelude> not False
+True
+Prelude> True && True
+True
+Prelude> True && False
+False
+Prelude> True || False
+True
+Prelude> False || False
+False
+Prelude>
+
+Strings
+Prelude> "Hello World"
+"Hello World"
+Prelude> "Hello " ++ "World!"
+"Hello World!"
+Prelude> 'Hello?'
+
+<interactive>:13:9:
+    lexical error in string/character literal at end of input
+Prelude> 
+
+Characters
+
+Prelude> 'a'
+'a'
+Prelude> 's'
+'s'
+
