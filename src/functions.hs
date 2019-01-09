@@ -16,3 +16,7 @@ whatIs number = if number > 0
                     else if number < 0
                             then "Negative"
                             else "Zero"
+
+isOdd x = if mod x 2 == 0 then "Even" else "Odd"
+
+greet hour = "Hello, good " ++ (if hour > 0 || hour < 13 then " morning" else "afternoon")
