@@ -3,7 +3,8 @@ let substraction = 45 - 3
 let multiplication = 21 * 2
 let division = 84 / 2
 let otherDivision = 3 / 4 -- 0.75
-
+let power = 2^4  -- 16
+let modulus = 3 `mod` 4   -- 3
 -- Boolean
 Prelude> 3/4
 0.75
