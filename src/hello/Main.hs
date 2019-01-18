@@ -1,1 +1,3 @@
-main = putStrLn "Hello Haskell"
+import SayHello
+
+main = putStrLn sayHello
