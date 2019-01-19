@@ -69,3 +69,10 @@ executable hello
   default-language:    Haskell2010
 
 -- Testing
+test-suite hellospec
+    type: exitcode-stdio-1.0
+    main-is: Spec.hs
+    test-module: SayHelloSpec 
+    hs-source-dirs:
+       .
+    default-language: Haskell2010

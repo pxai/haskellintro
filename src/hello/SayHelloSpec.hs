@@ -1,3 +1,5 @@
+module SayHelloSpec where
+
 import Test.Hspec
 import Test.QuickCheck
 import Control.Exception (evaluate)
@@ -7,4 +9,4 @@ main :: IO ()
 main = hspec $ do
   describe "Prelude.head" $ do
       it "returns hello" $ do
-            sayHello `shouldBe` ("Hello Haskell" :: String)
+            sayHello `shouldBe` ("Hello Haskell!" :: String)
