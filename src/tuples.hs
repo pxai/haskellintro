@@ -9,4 +9,8 @@ Prelude> zip [23, 421, 43, 23] ["Merrin", "Aragorn", "Sam", "Frodo"]
 [(23,"Merrin"),(421,"Aragorn"),(43,"Sam"),(23,"Frodo")]
 Prelude> zip [33..] ["Merrin", "Aragorn", "Sam", "Frodo"]
 [(33,"Merrin"),(34,"Aragorn"),(35,"Sam"),(36,"Frodo")]
-
+Prelude> fst ("Gandalf", 322)
+"Gandalf"
+Prelude> snd ("Gandalf", 322)
+322
+Prelude>
