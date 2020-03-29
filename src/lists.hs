@@ -95,3 +95,9 @@ True
 Prelude> 6 `elem` [3,5,2,4]
 False
 
+Prelude> [1..10]
+Prelude> [1..] Infinetly long list
+PRelude> take 5 [1..]  -> [1,2,3,4,5]
+Prelude> [a..r]
+Prelude> [2,4,..10]
+Prelude> [100, 95..0]
