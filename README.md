@@ -22,3 +22,15 @@ Or edit a file with `*.hs` extension and then:
 ```bash
 runhaskell file.hs
 ```
+
+
+## Infix operator
+Normally in haskell we use prefix notation:
+```haskell
+function_name x y
+```
+
+But we can change that doing:
+```haskell
+x `function_name y
+```
