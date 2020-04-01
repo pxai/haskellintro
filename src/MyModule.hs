@@ -1,3 +1,4 @@
+-- Import this with import MyModule
 module MyModule (add, del) where
 
 add :: Num a => a -> a -> a
